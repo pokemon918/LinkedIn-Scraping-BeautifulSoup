@@ -5,13 +5,14 @@ import time
 import pandas as pd
 import json
 
-path = "C:\Program Files (x86)\chromedriver.exe"
+path = "pathtoyourchromedriver\chromedriver.exe"
+# download the chromedriver.exe from https://chromedriver.storage.googleapis.com/index.html?path=106.0.5249.21/
 
 driver = webdriver.Chrome(path)
 
 # Login
 def login():
-    login = open('login.txt')
+    login = open('login.txt') # this is your linkedin account login, store in a seperate text file. I recommend creating a fake account so your real one dosen't get flagged or banned
     line = login.readlines()
 
     email = line[0]
