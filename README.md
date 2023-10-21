@@ -1,4 +1,4 @@
-# Linkedin Web Scraping
+# Linkedin-Scraping-BeautifulSoup
 Using comma counting and pattern matching techniques, I am able to successfully webscrape linkedin companies and profiles in 2022/2023.
 
 The issue I had with web scraping linkedin was how LinkedIn changed its UI, having every element inside its own CSS and div classes to prevent functions like find_all() 
